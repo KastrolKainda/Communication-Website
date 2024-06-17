@@ -1,0 +1,456 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header{
+    padding-left: 35px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    height: 100px;
+   
+}
+
+
+.nav ul li{
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+   
+    
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(173, 173, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.nav ul li:hover{
+  opacity: 0.5;
+}
+
+
+.nav ul{
+    float: right;
+}
+
+.search{
+  align-items: center;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.srch{
+  font-family: 'Times New Roman', Times, serif;
+  width: 150px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  color: rgb(48, 44, 44);
+}
+
+
+.btns{
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+  margin-top: 13px;
+}
+
+.btns:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+.logo{
+    float: left;
+   
+}
+
+.logo img{
+    width: 80px;  
+}
+
+.logo h2{
+  color: #f08080;
+}
+
+.bg-image{
+    background-image: url(bg1.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    
+  
+   
+}
+
+
+
+.bg-images{
+    background-image: url(img12.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+   
+
+}
+
+
+.bg-text h3{
+    color: rgb(255, 255, 255); 
+    font-size: 4rem;
+    font-family: Open Sans, arial, helvetica, sans-serif;
+    font-weight: 400;
+    
+    text-align:center;
+    position: absolute;
+    top: 260px;
+    left: 340px;
+}
+
+.about-us{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.about-us a{
+    font-weight: 400;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+
+.about-table{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 850px;
+    margin: auto auto;
+    column-gap: 0;
+}
+
+.about-1 a{
+    font-size: 17px;
+    display: block;
+    padding: 0 30px 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+.about-2 img{
+    width: 400px;
+   
+    
+}
+
+.about-1{
+   background-color: rgb(55, 51, 75);
+}
+
+.column-2 img{
+  width: 400px;
+}
+
+.column-1 a{
+  font-size: 15px;
+  display: block;
+  padding: 0 30px 0 30px; 
+  color: white; 
+  font-family: sans-serif;
+}
+
+.column-1{
+  background-color: rgb(144, 240, 240);
+}
+
+.two-column{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 800px;
+  margin: auto auto;
+  column-gap: 0;
+ 
+}
+
+.donate-style{
+  background-color: rgb(6, 91, 112);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+
+.donate-style:hover{
+  transform: scale(1.2);
+}
+
+
+
+.sev1 img{
+    width: 100%;
+    max-width: 150px;
+    min-width: 150px;
+
+}
+
+
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 80px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.sev1 h3{
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+}
+
+
+
+
+
+.news a{
+    text-align: center;
+    font-weight: 500;
+    color: #f08080;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+}
+
+.news{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.news-item img{
+    width: 400px;
+}
+
+.news-item2 p{
+  color: grey;
+  font-family: sans-serif;
+
+  font-size: 15px;
+  
+}
+
+
+
+
+
+table {
+    width: 100%; /* Make the table fill the available width */
+    border-collapse: collapse; /* Remove borders between table cells */
+  }
+  
+  td {
+    padding: 10px; /* Add padding to each news item */
+    text-align: center; /* Center the content within each cell */
+  }
+  
+  .news-item {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center content horizontally within the news item */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .news-item img {
+    width: 100%; /* Make the image fit the news item width */
+    margin-bottom: 5px;
+  }
+  
+
+
+  footer{
+    margin-top: 80px;
+    background-color: rgb(189, 184, 184);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.ftr-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+}
+
+.ftr1 li a{
+    text-decoration: none;
+    font: 18px;
+    line-height: 2.2;
+    color: black;
+}
+
+.ftr1 li{
+    list-style: none;
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.address{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tell{
+    text-align: center;
+}
+
+
+.ftr1 li h3:hover{
+    color: red;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  .highlight {
+    color: #f08080;
+  }
+
+  .mission-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .mission-box {
+    width: calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+
+  
+  .mission-box i {
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+   
+  }
+
+  .mission-box img{
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+  }
+  
+  .mission-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+
+  ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ol li{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons as desired */
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+  
+  .social-links a {
+    color: inherit; /* Inherit link color from parent */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-links a i {
+    font-size: 2em; /* Adjust icon size as desired */
+  }
+  
+  .image-container {
+    position: relative; /* Position the hover effect container */
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%; /* Adjust image width as needed */
+    width: 500px;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .image-container:hover .hover-image {
+    opacity: 1; /* Show image on hover */
+  }

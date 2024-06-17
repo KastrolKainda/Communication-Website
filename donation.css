@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(210, 205, 223)
+  } 
+
+
+ #payment{
+    text-align: center;
+    color: #5164a6;
+    margin-top: 40px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+
+
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 50px;
+    background-color: rgb(160, 134, 134);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.services2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 700px;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 50px;
+    background-color: rgb(89, 78, 78);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.sev1 img{
+    width: 100%;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.sev1 a{
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.sev1 p{
+  color: whitesmoke;
+  font-style: italic;
+}
+
+
+
+
+  footer{
+    margin-top: 100px;
+    background-color: rgb(172, 166, 166);
+    padding-top: 60px;
+    padding-bottom: 50px;  
+    text-align: center;
+  }
+
+  .info{
+    color: white;
+  }
+
+
+  
+

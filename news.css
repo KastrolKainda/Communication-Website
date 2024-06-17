@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.nav ul li{
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(173, 173, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li:hover{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+
+.heading p,h3{
+    text-align: center;
+    font-weight: 500;
+    color: #f08080;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding-top: 0px;
+
+}
+
+.news_image img{
+    width: 800px;
+    padding-left: 300px;
+    padding-top: 20px;
+
+}
+
+.news_image h2{
+    text-align: center;
+    color: rgb(131, 72, 72);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.news_infor p,h2{
+    
+    color: black;
+    font-size: 17px;
+    text-indent: -0.5em;  /* Indent the first line by half an em (adjust as needed) */
+    margin-bottom: 0.5em;
+    padding-left: 300px;
+    padding-right: 100px;
+    
+}
+
+.donate_style a{
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(6, 91, 112);
+    color: rgb(173, 173, 20);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+
+
+}
+
+.donate_style{
+    text-align: center;
+    padding-left: 80px;
+    float: right;
+    
+}
+
+.donate_style:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+footer{
+    margin-top: 80px;
+    background-color: rgb(189, 184, 184);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.ftr-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+}
+
+.ftr1 li a{
+    text-decoration: none;
+    font: 18px;
+    line-height: 2.2;
+    color: black;
+}
+
+.ftr1 li{
+    list-style: none;
+    text-align: center;
+}
+
+
+.email{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.address{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tell{
+    text-align: center;
+}
+
+
+.ftr1 li h3:hover{
+    color: red;
+}
+
+
+
+
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons as desired */
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-top: 15px;
+  }
+  
+  .social-links a {
+    color: inherit; /* Inherit link color from parent */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .social-links a i {
+    font-size: 2em; /* Adjust icon size as desired */
+  }
+
+
+  

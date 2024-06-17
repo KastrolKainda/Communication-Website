@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(70, 65, 60, 0.288);
+}
+.header-one{
+    background-color: red;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+.header-one a{
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px
+
+}
+
+.header-two h3{
+    color: tomato;
+}

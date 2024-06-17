@@ -1,0 +1,64 @@
+.mission-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    
+  }
+  
+  .mission-box {
+    width: calc(30% - 19px);
+    background-color: rgb(226, 230, 219);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+
+  
+  .mission-box i {
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+   
+  }
+
+  .mission-box p{
+    
+    color: rgb(98, 72, 72);
+
+  }
+
+  .mission-box img{
+    width: 200px;
+    color: #f08080;
+    margin-bottom: 10px;
+  }
+  
+  .mission-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+
+  ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ol li{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .teamtext{
+    padding-top: 30px;
+  }
